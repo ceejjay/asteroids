@@ -1,0 +1,20 @@
+import pygame
+from constants import *
+
+def main():
+	pygame.init()
+	#print("Starting asteroids!" )
+	#print(f"Screen width: {SCREEN_WIDTH}")
+	#print(f"Screen height: {SCREEN_HEIGHT}")
+	screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+	loopRunning = True
+	counter = 0
+	while loopRunning:
+		screen.fill((0,0,0))
+		pygame.display.flip()
+		counter += 1
+		if counter > 100:
+			loopRunning = False
+
+if __name__ == "__main__":
+	main()
