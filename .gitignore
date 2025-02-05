@@ -1,0 +1,15 @@
+# Virtual Environments
+.venv
+venv/
+
+# Visual Studio cache/config directory
+.vs/
+
+# Visual Studio Code cache/config directory
+.vscode/
+
+# PyGame cache files 
+__pycache__/
+
+#*.save files
+*.save
